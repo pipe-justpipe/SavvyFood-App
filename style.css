@@ -3,6 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ============== style for mobile phone on green background ============== */
+.green__card{
+    width: 500px;
+    height: 618px;
+    top: 21px;
+    left: 118px;
+    border-radius: 37px;
+    border: 1px;
+    position: relative;
+}    
+.mobile__phone{
+    width: 600px;
+    height: 618px;
+    top: 21px;
+    left: 118px;
+    border-radius: 37px;
+    border: 1px;
+    position: absolute;
+}
 .grid-container {
     display: flex;
 }
