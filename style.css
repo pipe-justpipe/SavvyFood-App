@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .green__card{
     width: 500px;
     height: 618px;
@@ -100,7 +101,7 @@ strong {
 }
 
 /* media quaries */
-@media (max-width: 75rem) {
+/* @media (max-width: 75rem) {
     .app-download {
       height: 29rem;
     }
@@ -112,10 +113,10 @@ strong {
     .app-download-text p {
       font-size: 1rem;
     }
-  }
+  } */
   
   /* ---------Size 1024 */
-  @media (max-width: 64rem) {
+  /* @media (max-width: 64rem) {
     .app-download {
       height: 25rem;
     }
@@ -145,10 +146,10 @@ strong {
       width: 0.8rem;
       height: 0.8rem;
     }
-  }
+  } */
   
   /* Screen Size 768px: Tablets */
-  @media (max-width: 48rem) {
+  /* @media (max-width: 48rem) {
     .app-download {
       height: 18rem;
       border-radius: 2.5rem;
@@ -173,10 +174,10 @@ strong {
     .ios-app-download span {
       font-size: 0.65rem;
     }
-  }
+  } */
   
   /* Mobile Device Screen Size 425px; */
-  @media (max-width: 27rem) {
+  /* @media (max-width: 27rem) {
     .app-download {
       height: 10rem;
       border-radius: 1rem;
@@ -208,4 +209,4 @@ strong {
     .ios-app-download span {
       font-size: 0.2rem;
     }
-}
+} */
