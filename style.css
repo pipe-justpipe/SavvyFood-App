@@ -3,29 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* ============== style for mobile phone on green background ============== */
-.green__card{
-    width: 500px;
-    height: 618px;
-    top: 21px;
-    left: 118px;
-    border-radius: 37px;
-    border: 1px;
-    position: relative;
-}    
-.mobile__phone{
-    width: 600px;
-    height: 618px;
-    top: 21px;
-    left: 118px;
-    border-radius: 37px;
-    border: 1px;
-    position: absolute;
-}
-.grid-container {
-    display: flex;
-}
-
 /*--------------TEXT AREA--------*/
 .text-area-1 {
     width: 900px;
@@ -126,7 +103,7 @@ display: flex;
     top: 50px;
 }
 
-    /* ----MEDIA QUERY FOR MOBILE--- */
+/* ----MEDIA QUERY FOR MOBILE--- */
     
 @media only screen and (max-width: 900px) {
         .grid-container {
@@ -138,4 +115,3 @@ display: flex;
             right: 600px;
         } 
     } 
-    
