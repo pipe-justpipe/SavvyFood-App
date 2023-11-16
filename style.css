@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 /* ============== style for mobile phone on green background ============== */
+.container {
+    display: flex;
+    flex-direction: column;
+}
 .green__card{
     width: 500px;
     height: 618px;
@@ -21,4 +25,187 @@
     border-radius: 37px;
     border: 1px;
     position: absolute;
+} 
+
+body {
+    width: 621px;
+    height: 735px;
+    margin-left: 45%;
+    margin-right: 10%;
+}
+
+.hello {
+    color: #009000;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133%; /* 13.3px */
+    letter-spacing: 0.05px;
+}
+
+.Top-card {
+    width: 570px;
+    /* height: 240px;  */
+    color: #000;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.5%; /* 96.96px */
+    letter-spacing: 0.32px; 
+}
+
+.passage {
+    width: 500px;
+    /* height: 110px; */
+    color: #21421E;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 212.5%; /* 27.625px */
+    letter-spacing: 0.39px;
+    margin-top: 25px;
+    margin-bottom: 25px; 
+}
+
+.food-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    padding-left: 20px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 152.9%;
+    letter-spacing: 1.08px;
+    margin-top: 10px;
+}
+
+strong {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.68px;
+}
+
+/* media quaries */
+@media (max-width: 75rem) {
+    .app-download {
+      height: 29rem;
+    }
+  
+    .app-download-text h2 {
+      font-size: 2.5rem;
+      line-height: 130%;
+    }
+    .app-download-text p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* ---------Size 1024 */
+  @media (max-width: 64rem) {
+    .app-download {
+      height: 25rem;
+    }
+  
+    .app-download-text h2 {
+      font-size: 2.1rem;
+    }
+    .app-download-text p {
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
+    }
+  
+    .ios-app-download {
+      padding: 0.3rem;
+      height: 2.3rem;
+    }
+  
+    .ios-app-download {
+      padding: 0.3rem;
+      height: 2.3rem;
+    }
+    .ios-app-download span {
+      font-size: 0.6rem;
+    }
+  
+    .ios-app-download svg {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
+  }
+  
+  /* Screen Size 768px: Tablets */
+  @media (max-width: 48rem) {
+    .app-download {
+      height: 18rem;
+      border-radius: 2.5rem;
+    }
+    .app-download-text {
+      gap: 1.7rem;
+    }
+    .app-download-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .app-download-text p {
+      flex-direction: column;
+      font-size: 0.85rem;
+    }
+  
+    .ios-app-download {
+      height: 2rem;
+      width: 8rem;
+    }
+  
+    .ios-app-download span {
+      font-size: 0.65rem;
+    }
+  }
+  
+  /* Mobile Device Screen Size 425px; */
+  @media (max-width: 27rem) {
+    .app-download {
+      height: 10rem;
+      border-radius: 1rem;
+    }
+  
+    .app-download-text {
+      gap: 1rem;
+    }
+  
+    .app-download-text h2 {
+      font-size: 0.7rem;
+    }
+  
+    .app-download-text p {
+      flex-direction: column;
+      font-size: 0.3rem;
+    }
+  
+    .ios-app-download {
+      height: 0.9rem;
+      width: 3rem;
+    }
+  
+    .ios-app-download svg {
+      width: 0.3rem;
+      height: 0.3rem;
+    }
+  
+    .ios-app-download span {
+      font-size: 0.2rem;
+    }
 }
