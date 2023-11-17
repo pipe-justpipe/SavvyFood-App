@@ -118,4 +118,65 @@ display: flex;
             right: 600px;
         } 
     } 
-    
+
+.mobile__phone{
+    width: 600px;
+    height: 618px;
+    top: 21px;
+    left: 118px;
+    border-radius: 37px;
+    border: 1px;
+    position: absolute;
+}
+
+/*============= The header section ==================*/
+.main{
+  width: 1720.82px; 
+  height: 1163px; 
+  position: relative;
+}
+
+.navv{
+  left: 457px; 
+  top: 157px; 
+  position: absolute; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 39px; 
+  display: inline-flex;
+}
+
+.navv p{
+  width: 90px; 
+  height: 26px; 
+  text-align: center; 
+  color: #green; 
+  font-size: 18px; 
+  font-family: Montserrat; 
+  font-style: italic; 
+  font-weight: 300; 
+  word-wrap: break-word;
+}
+
+.logo-icon{
+  width: 173px; 
+  height: 72px; 
+  left: 122px; 
+  top: 134px; 
+  position: absolute;
+}
+
+.logo-text{
+  width: 173px; 
+  height: 26px; 
+  left: 0px; 
+  top: 23px; 
+  position: absolute; 
+  text-align: center; 
+  color: #32CD32; 
+  font-size: 25px; 
+  font-family: Montserrat; 
+  font-style: italic; 
+  font-weight: 800;
+  word-wrap: break-word;
+}
