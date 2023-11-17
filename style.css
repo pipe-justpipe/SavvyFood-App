@@ -137,10 +137,11 @@ strong {
   }
 
   .cards {
-   
+   width:80%;
     margin-left: auto;
     margin-top: auto;
     margin-bottom: 20px;
+    /* display: flex; */
   }
 
 
@@ -149,11 +150,14 @@ strong {
     max-height: 548px; 
     margin-left: auto;
     margin-top: auto;
+    border-radius: 30px;
   }
 
   .mobile__phone {
-    width: 500px;
+    max-width: 500px;
     height: 528px;
+    border-radius: 50px;
+    border-top-left-radius: 55px;
     margin-left: auto;
     margin-top: auto;
   }
@@ -196,8 +200,10 @@ strong {
 .food-picture {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width:500px;
+  /* justify-content: space-between; */
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
   /* margin-bottom: 10px; */
 }
 .food__img{
@@ -223,6 +229,7 @@ strong {
     width: 50%;
     top: 10px;
     left: 118px;
+    border-radius: 20px;
   }
 
   .mobile__phone {
@@ -230,6 +237,20 @@ strong {
     height: 600px; 
     top:10px;
     left:40px;
+    border-radius: 30px;
+    border-top-left-radius: 35px;
+  }
+  .Top-card {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.5%; /* 96.96px */
+    letter-spacing: 0.32px;
   }
   .text_img_section .passage {
     width: 70%; 
@@ -263,11 +284,14 @@ strong {
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 20px;
   }
 
   .mobile__phone {
     width: 50%; 
     height: 300px; 
+    border-radius: 30px;
+    border-top-left-radius: 35px;
     margin-left: auto;
     margin-top: auto;
   }
