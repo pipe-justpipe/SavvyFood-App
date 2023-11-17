@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .grid-container {
     display: flex;
@@ -179,4 +179,297 @@ display: flex;
   font-style: italic; 
   font-weight: 800;
   word-wrap: break-word;
+}
+/* ============== style for mobile phone on green background ============== */
+#about{
+  display: flex;
+align-items: center;
+justify-content: space-around;
+/* width: 90%;
+margin-left: auto;
+margin-right: auto; */
+
+}
+.cards {
+  position: relative;
+}
+
+.green__card {
+  max-width: 580px;
+  height: 618px;
+  top: 21px;
+  left: 118px;
+  border-radius: 37px;
+  border: 1px;
+  margin: 0;
+}
+.mobile__phone {
+  max-width: 680px;
+  height: 600px;
+  top: 0px;
+  left: 118px;
+  border-radius: 50px;
+  border-top-left-radius: 55px;
+  border: 1px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  margin-right: -100px;
+ 
+}
+.text_img_section {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.hello {
+  color: #009000;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 133%; /* 13.3px */
+  letter-spacing: 0.05px;
+}
+
+.Top-card {
+  width: 570px;
+  /* height: 240px;  */
+  color: #000;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.5%;
+  letter-spacing: 0.32px;
+}
+
+.passage {
+  width: 500px;
+  /* height: 110px; */
+  color: #21421e;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 212.5%; /* 27.625px */
+  letter-spacing: 0.39px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.food-picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:700px;
+  /* margin-bottom: 10px; */
+}
+.food__img{
+  width: 100%;
+}
+
+figcaption {
+  padding-left: 20px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 152.9%;
+  letter-spacing: 1.08px;
+  margin-top: 10px;
+}
+
+strong {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.68px;
+}
+
+/*========== media queries for tablet and mobile for about section ===========*/
+
+  /*========= media query for tablet (about section) ==========*/
+  @media (max-width:1110px){
+    #about {
+      display: grid;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    
+    }
+  }
+@media (max-width: 700px) {
+
+  #about {
+    display: grid;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+  .cards {
+   width:80%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
+    /* display: flexte; */
+  }
+
+
+  .green__card {
+    max-width: 500px;
+    max-height: 548px; 
+    margin-left: auto;
+    margin-top: auto;
+    border-radius: 30px;
+  }
+
+  .mobile__phone {
+    max-width: 500px;
+    height: 528px;
+    border-radius: 50px;
+    border-top-left-radius: 55px;
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+  .text_img_section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text_img_section h6.hello {
+    font-size: 12px;
+    text-align: center;
+}
+.text_img_section h1.Top-card {
+  font-size: 48px; 
+  margin-top: 20px; 
+  text-align: center;
+}
+.Top-card {
+  width: 390px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #000;
+  font-family: Poppins;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 151.5%; /* 96.96px */
+  letter-spacing: 0.32px;
+}
+
+.text_img_section .passage {
+  width: 100%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.food-picture {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  margin-left:auto;
+  margin-right:auto;
+  width:400px;
+  /* margin-bottom: 10px; */
+}
+.food__img{
+  width: 80%;
+}
+}
+
+  /*======== Responsiveness for mobile (About section) ========*/
+@media (max-width: 699px) {
+
+  #about {
+    display: grid;
+  }
+
+  .cards {
+    width: 90%;
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+  .green__card {
+    height: 630px; 
+    width: 50%;
+    top: 10px;
+    left: 118px;
+    border-radius: 20px;
+  }
+
+  .mobile__phone {
+    width: 50%; 
+    height: 600px; 
+    top:10px;
+    left:40px;
+    border-radius: 30px;
+    border-top-left-radius: 35px;
+  }
+  .Top-card {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 151.5%; /* 96.96px */
+    letter-spacing: 0.32px;
+  }
+  .text_img_section .passage {
+    width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .food-picture {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 10px; */
+  }
+
+  .food__img{
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px){
+  .cards {
+    width: 80%;
+    /* margin-left: auto;
+    margin-top: auto; */
+  }
+
+  .green__card {
+    width: 50%; 
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
+
+  .mobile__phone {
+    width: 50%; 
+    height: 300px; 
+    border-radius: 30px;
+    border-top-left-radius: 35px;
+    margin-left: auto;
+    margin-top: auto;
+  }
 }
