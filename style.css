@@ -3,13 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.grid-container {
+    display: flex;
+}
+
 /*--------------TEXT AREA--------*/
 .text-area-1 {
     width: 900px;
     height: 963px;
     margin: -18% 0 0 -80px;
     border-radius: 108px;
-    background-image: url(MAin1.png);
+    background-image: url(images/MAin1.png);
     background-repeat: no-repeat;
     background-size: 100%
   
@@ -103,7 +107,7 @@ display: flex;
     top: 50px;
 }
 
-/* ----MEDIA QUERY FOR MOBILE--- */
+    /* ----MEDIA QUERY FOR MOBILE--- */
     
 @media only screen and (max-width: 900px) {
         .grid-container {
@@ -115,3 +119,4 @@ display: flex;
             right: 600px;
         } 
     } 
+    
