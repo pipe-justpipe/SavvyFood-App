@@ -10,253 +10,60 @@ html {
 }
 
 /*============= The header section ==================*/
-.main {
-  width: 1720.82px;
-  height: 1163px;
-  position: relative;
-}
-
-.navv {
-  left: 457px;
-  top: 157px;
+.header-area {
+  height: 100px;
   position: absolute;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 39px;
-  display: inline-flex;
-}
-
-.navv p {
-  width: 90px;
-  height: 26px;
-  text-align: center;
-  color: green;
-  font-size: 18px;
-  font-family: Montserrat;
-  font-style: italic;
-  font-weight: 300;
-  word-wrap: break-word;
-}
-
-.logo-icon {
-  width: 173px;
-  height: 72px;
-  left: 122px;
-  top: 134px;
-  position: absolute;
-}
-
-.logo-text {
-  width: 173px;
-  height: 26px;
-  left: 0px;
-  top: 23px;
-  position: absolute;
-  text-align: center;
-  color: #32cd32;
-  font-size: 25px;
-  font-family: Montserrat;
-  font-style: italic;
-  
-/*============= The header section ==================*/
-.main{
-  width: 1720.82px; 
-  height: 1163px; 
-  position: relative;
-}
-
-.navv{
-  left: 457px; 
-  top: 157px; 
-  position: absolute; 
-  justify-content: flex-start; 
-  align-items: flex-start; 
-  gap: 39px; 
-  display: inline-flex;
-}
-
-.navv p{
-  width: 90px; 
-  height: 26px; 
-  text-align: center; 
-  color: green; 
-  font-size: 18px; 
-  font-family: Montserrat; 
-  font-style: italic; 
-  font-weight: 300; 
-  word-wrap: break-word;
-}
-
-.logo-icon{
-  width: 173px; 
-  height: 72px; 
-  left: 122px; 
-  top: 134px; 
-  position: absolute;
-}
-
-.logo-text{
-  width: 173px; 
-  height: 26px; 
-  left: 0px; 
-  top: 23px; 
-  position: absolute; 
-  text-align: center; 
-  color: #32CD32; 
-  font-size: 25px; 
-  font-family: Montserrat; 
-  font-style: italic; 
-  font-weight: 800;
-  word-wrap: break-word;
-}
-
-/* BODY PAGE ONE */
-.grid-container {
-   display: flex;
-   display: flex;
-
-}
-
-/*--------------TEXT AREA--------*/
-.text-area-1 {
-  width: 900px;
-  height: 963px;
-  margin: -18% 0 0 -80px;
-  border-radius: 108px;
-  background-image: url(images/Ma);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-.text-area-content {
-  padding: 155px 0 0 155px;
-  height: 80%;
-  width: 100%;
-}
-.welcome-msg {
-  display: flex;
-  margin-top: 200px;
-}
-.arrow {
-  margin-right: 20px;
-}
-.welcome-msg h1 {
-  color: #c4d600;
-  font-family: Poppins;
-  font-size: 10px;
-  font-weight: 600;
-  line-height: 133%;
-  letter-spacing: 0.05px;
-}
-.main-text {
-  padding: 50px 0;
-}
-.text-area-1 h2 {
-  width: 70%;
+  z-index: 1;
   color: #fff;
-  font-family: sans-serif, poppins;
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 133%;
-}
-.text-area-1 P {
   display: flex;
-  width: 460px;
-  justify-content: center;
-  color: #fff;
-  font-family: Poppins;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 212.5%;
-  letter-spacing: 0.39px;
 }
-.download-btn {
+.nav-area {
+  width: 36vw;
+}
+.nav-container {
   display: flex;
-  padding: 10px 0;
-  width: 150px;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 24px;
+  justify-content: space-between;
+  margin: 60px 0 0 50px;
 }
-.download-btn a {
-  width: 128px;
-  height: 18px;
-  text-decoration: none;
-  color: #000;
-  font-family: Poppins;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 1.02px;
-}
-.download-btn-logo {
-  width: 20px;
-  height: 20px;
-  margin: 0 0 5px 30px;
-}
-
-/* ============== style for mobile phone on green background ============== */
-.green__card {
-  width: 500px;
-  height: 618px;
-  top: 21px;
-  left: 118px;
-  border-radius: 37px;
-  border: 1px;
-  position: relative;
-}
-
-.navv {
-  left: 457px;
-  top: 157px;
-  position: absolute;
-  justify-content: flex-start;
-  align-items: flex-start;
-  gap: 39px;
-  display: inline-flex;
-}
-
-.navv p {
-  width: 90px;
+.nav-container li {
+  display: flex;
+  width: 97px;
   height: 26px;
-  text-align: center;
-  color: green;
-  font-size: 18px;
-  font-family: Montserrat;
   font-style: italic;
-  font-weight: 300;
-  word-wrap: break-word;
+  justify-content: center;
+  color: #d4d2d2;
+}
+.nav-item {
+  color: #F5F5F5;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .logo-icon {
-  width: 173px;
-  height: 72px;
-  left: 122px;
-  top: 134px;
-  position: absolute;
+  display: flex;
+  margin-left: 50px;
+}
+.logo-base {
+  margin-top: 60px;
 }
 
-.logo-text {
-  width: 173px;
-  height: 26px;
-  left: 0px;
-  top: 23px;
+.logo {
   position: absolute;
-  text-align: center;
-  color: #32cd32;
-  font-size: 25px;
-  font-family: Montserrat;
-  font-style: italic;
-  font-weight: 800;
-  word-wrap: break-word;
+  left: 105px;
+  top: 25px;
+}
+.registration-btn {
+  margin: 20px 0 0 250px;
 }
 
 /* BODY PAGE ONE */
 .grid-container {
-  display: flex;
+   display: flex;
 }
 
 /*--------------TEXT AREA--------*/
@@ -265,13 +72,12 @@ html {
   height: 963px;
   margin: -18% 0 0 -80px;
   border-radius: 108px;
-  background-image: url(images/MAin1.png);
+  background-image: url(images/Main1.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
-
 .text-area-content {
-  padding: 155px 0 0 155px;
+  padding: 275px 0 0 155px;
   height: 80%;
   width: 100%;
 }
@@ -302,7 +108,6 @@ html {
   font-weight: 700;
   line-height: 133%;
 }
-
 .text-area-1 p {
   display: flex;
   width: 460px;
@@ -341,6 +146,25 @@ html {
   height: 20px;
   margin: 0 0 5px 30px;
 }
+/*------------MOBILE DESIGN--------------*/
+.mobile-designs {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+}
+
+.mobile-1 {
+  position: relative;
+  left: 400px;
+  bottom: 10px;
+  z-index: 1;
+}
+
+.mobile-2 {
+  position: relative;
+  right: 170px;
+  top: 100px;
+}
 
 /* Style for the APP-DOWNLOAD box on Section-Third-Page */
 .third-page {
@@ -359,7 +183,6 @@ html {
   border-radius: 5rem;
   width: 80%;
   height: 35rem;
-
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -500,10 +323,9 @@ html {
   letter-spacing: 0.32px;
   width: 600px;
   margin-bottom: 60px;
-  /* height: 261px; */
   word-wrap: break-word;
-  /* margin-bottom: 60px; */
 }
+
 .parathan {
   display: flex;
   flex-direction: column;
@@ -522,6 +344,7 @@ html {
 .parathan-image img {
   width: 100%;
 }
+
 .parathan-arr {
   display: inline-block;
   display: flex;
@@ -541,11 +364,11 @@ html {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  /* gap: 1rem; */
   width: 391px;
   height: 80px;
   gap: 14px;
 }
+
 .parathan-word {
   color: black;
   font-size: 13px;
@@ -554,7 +377,6 @@ html {
   line-height: 27.62px;
   letter-spacing: 0.39px;
   word-wrap: break-word;
-
   font-style: normal;
 }
 
@@ -613,8 +435,6 @@ html {
 
 .lemper {
   color: #fff;
-
-  /* text-align: center; */
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -737,114 +557,21 @@ html {
   .ios-app-download span {
     font-size: 0.65rem;
   }
+} 
 
-    width: 900px;
-    height: 963px;
-    margin: -18% 0 0 -80px;
-    border-radius: 108px;
-    background-image: url(images/MAin1.png);
-    background-repeat: no-repeat;
-    background-size: 100%
-  
-}
-.text-area-content {
-    padding: 155px 0 0 155px;
-    height: 80%;
-    width: 100%;
-}
-.welcome-msg {
-    display: flex;
-    margin-top: 200px;
-}
-.arrow {
-    margin-right: 20px;
-}
-.welcome-msg h1 {
-    color: #C4D600;
-    font-family: Poppins;
-    font-size: 10px;
-    font-weight: 600;
-    line-height: 133%;
-    letter-spacing: 0.05px;
-}
-.main-text {
-    padding: 50px 0;
-}
-.text-area-1 h2 {
-    width: 70%;
-    color: #FFF;
-    font-family: sans-serif, poppins;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 133%;
-}
-.text-area-1 P {
-    display: flex;
-    width: 460px;
-    justify-content: center;
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 212.5%;
-    letter-spacing: 0.39px;
-}
-.download-btn {
-    display: flex;
-    padding: 10px 0;
-    width: 150px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 24px;
-}
-.download-btn a {
-    width: 128px;
-    height: 18px;
-    text-decoration: none;
-    color: #000;
-    font-family: Poppins;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: 1.02px;
-}
-.download-btn-logo {
-    width: 20px;
-    height: 20px;
-    margin: 0 0 5px 30px;
-}
-
-/*------------MOBILE DESIGN--------------*/
-.mobile-designs {
-  position: absolute;
-  width: 100vw;
-  display: flex;
-}
-.mobile-1 {
-  position: relative;
-  left: 410px;
-  bottom: 30px;
-  z-index: 1;
-}
-.mobile-2 {
-  position: relative;
-  right: 170px;
-  top: 50px;
-}
-
-/* ----MEDIA QUERY FOR MOBILE--- */
+/* ----MEDIA QUERY FOR MOBILE (BODY PAGE ONE)--- */
 @media only screen and (max-width: 900px) {
   .grid-container {
     display: block;
     width: 50%;
+    height: 250vh;
   }
   .mobile-designs {
     position: absolute;
     right: 600px;
+  }
+  .text-area-1 {
+    padding-top: 0;
   }
 }
 
@@ -882,50 +609,3 @@ html {
     font-size: 0.2rem;
   }
 }
-
-/*------------MOBILE DESIGN--------------*/
-.mobile-designs {
-  position: absolute;
-  width: 100vw;
-  display: flex;
-}
-.mobile-1 {
-  position: relative;
-  left: 410px;
-  bottom: 30px;
-  z-index: 1;
-}
-.mobile-2 {
-  position: relative;
-  right: 170px;
-  top: 50px;
-}
-  
-position: absolute;
-width: 100vw;
-display: flex;
-}
-.mobile-1 {
-    position: relative;
-    left: 410px;
-    bottom: 30px;
-    z-index: 1;
-}
-.mobile-2 {
-    position: relative;
-    right: 170px;
-    top: 50px;
-}
-
- /* ----MEDIA QUERY FOR MOBILE--- */ 
-@media only screen and (max-width: 900px) {
-        .grid-container {
-            display: block;
-            width: 50%;
-        }
-        .mobile-designs {
-            position: absolute;
-            right: 600px;
-        } 
-    } 
-
